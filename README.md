@@ -38,4 +38,4 @@ The screenshot would look like this:
 Please read the source codes and see what I did.
 
 1. [Test Cases/TC1](Scripts/TC1/Script1538686539182.groovy)
-2. [Keywords/com.kazurayam.ksbackyard.ScreenshotdriverMini](Keywords/com/kazurayam/ksbackyard/ScreenshotDriverMini.groovy)
+2. [Keywords/com.kazurayam.ksbackyard.ScreenshotDriverMini](Keywords/com/kazurayam/ksbackyard/ScreenshotDriverMini.groovy)
