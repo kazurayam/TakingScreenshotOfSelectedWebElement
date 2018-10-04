@@ -17,7 +17,8 @@ The original question was:
 [aShot](https://github.com/yandex-qatools/ashot), a
 WebDriver Screenshot utility, provides an immediate solution to this.
 
-This project shows you how to use aShot in a Katalon Studio project.
+This project shows you how to use aShot in a Katalon Studio project, and provides
+a working example of taking a screenshot of a selected HTML element in a Web page.
 
 ## How to run the project
 
