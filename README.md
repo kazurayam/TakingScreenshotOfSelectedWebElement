@@ -25,7 +25,7 @@ a working example of taking a screenshot of a selected HTML element in a Web pag
 1. download the zip of this project at https://github.com/kazurayam/TakingScreenshotOfSelectedWebElement/releases
 2. unzip it. you get the project folder
 3. start Katalon Stuio, open the project
-4. open 'Test Cases/TC1 and run it with your favorites browser
+4. open `Test Cases/TC1` and run it with your favorites browser
 5. the test script will open [Katalon Forum](https://forum.katalon.com/discussions) and
 take screenshot of the banner
 6. when the test script finished, you will find a PNG file `<projectDir>/tmp/forum-banner.png`
@@ -38,4 +38,4 @@ The screenshot would look like this:
 Please read the source codes and see what I did.
 
 1. [Test Cases/TC1](Scripts/TC1/Script1538686539182.groovy)
-2. [Keywords/com.kazurayam.ksbackyard.ScreenshotdriverMini](Keywords/com/kazurayam/ScreenshotDriverMini.groovy)
+2. [Keywords/com.kazurayam.ksbackyard.ScreenshotdriverMini](Keywords/com/kazurayam/ksbackyard/ScreenshotDriverMini.groovy)
