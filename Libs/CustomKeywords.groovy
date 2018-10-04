@@ -10,19 +10,19 @@ import org.openqa.selenium.WebElement
 import java.nio.file.Path
 
 
-def static "com.kazurayam.ksbackyard.ScreenshotDriver.takeElementImage"(
+def static "com.kazurayam.ksbackyard.ScreenshotDriverMini.takeElementImage"(
     	WebDriver webDriver	
      , 	WebElement webElement	) {
-    (new com.kazurayam.ksbackyard.ScreenshotDriver()).takeElementImage(
+    (new com.kazurayam.ksbackyard.ScreenshotDriverMini()).takeElementImage(
         	webDriver
          , 	webElement)
 }
 
-def static "com.kazurayam.ksbackyard.ScreenshotDriver.saveElementImage"(
+def static "com.kazurayam.ksbackyard.ScreenshotDriverMini.saveElementImage"(
     	WebDriver webDriver	
      , 	WebElement webElement	
      , 	Path output	) {
-    (new com.kazurayam.ksbackyard.ScreenshotDriver()).saveElementImage(
+    (new com.kazurayam.ksbackyard.ScreenshotDriverMini()).saveElementImage(
         	webDriver
          , 	webElement
          , 	output)

@@ -34,7 +34,7 @@ Path tmpDir = projectDir.resolve('tmp')
 Path pngFile = tmpDir.resolve('forum-banner.png')
 
 // take screenshot of selected WebElement and save it into file
-CustomKeywords.'com.kazurayam.ksbackyard.ScreenshotDriver.saveElementImage'(
+CustomKeywords.'com.kazurayam.ksbackyard.ScreenshotDriverMini.saveElementImage'(
 	driver, webElement , pngFile)
 
 WebUI.closeBrowser()

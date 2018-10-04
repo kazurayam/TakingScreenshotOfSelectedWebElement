@@ -15,7 +15,7 @@ import ru.yandex.qatools.ashot.AShot
 import ru.yandex.qatools.ashot.Screenshot
 import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider
 
-public class ScreenshotDriver {
+public class ScreenshotDriverMini {
 
 	@Keyword
 	static BufferedImage takeElementImage(WebDriver webDriver, WebElement webElement) {
